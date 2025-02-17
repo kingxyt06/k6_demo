@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Trigger Project B') {
             steps {
-                build job: 'Project_B_Job', wait: false
+                build job: 'projectB_job', wait: false
             }
         }
     }
